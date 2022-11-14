@@ -5,7 +5,7 @@ public class Worker {
     private OnTaskDoneListener callback;
     private OnTaskErrorListener errorCallback;
 
-    public Worker(OnTaskDoneListener callback, OnTaskErrorListener errorCallback) { // конструктор
+    public Worker(OnTaskDoneListener callback, OnTaskErrorListener errorCallback) { // Конструктор
         this.callback = callback;
         this.errorCallback = errorCallback;
     }
